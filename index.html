@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar Verma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+            font-size: 100%;
+        }
+
+        body {
+            background-color: rgb(4, 4, 36);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 5rem;
+            background-color: rgb(4, 4, 53);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: blueviolet;
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 1.75rem;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 3rem 0rem;
+            /* flex-flow: column wrap; */
+        }
+
+        /* .projectssection{
+            
+        } */
+
+        .firstsection div {
+            width: 30%;
+        }
+
+        .rightsection img {
+            width: 95%;
+            margin: 5rem 0rem;
+            border-radius: 20%;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+        }
+
+        #element,
+        .name {
+            color: blueviolet;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+
+        /* about section */
+        .ailogo img {
+            margin: 0rem 0.25rem;
+            border-radius: 0.5rem;
+            width: 3.0625rem;
+            height: 3.0625rem;
+        }
+
+        .aboutleft div h3 {
+            font-size: 1.35rem;
+
+        }
+
+        .aboutsection div {
+            width: 40%;
+            text-align: center;
+        }
+
+        .project_row {
+            display: flex;
+            justify-content: space-around;
+            align-items:first baseline;
+            margin: 3rem 0rem;
+            flex-wrap: wrap;
+        }
+
+        .project_row div {
+            background-color:black;
+            width: 22rem;
+            margin: 0.7rem 1rem;
+        }
+        .card-title{
+            color: blueviolet;
+        }
+        .card-body a{
+
+        }
+
+        .experiencessection {
+            height: 50rem;
+            background-color: yellow;
+        }
+
+        .certificationssection {
+            height: 50rem;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Tushar Verma</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/"> Home</a> </li>
+                    <li><a href="#about"> About</a> </li>
+                    <li><a href="/#projects"> Projects</a> </li>
+                    <!-- <li><a href="/"> Experiences</a> </li>
+                    <li><a href="/"> Certifications</a> </li>
+                    <li><a href="/"> Blog</a> </li> -->
+                    <li><a href="https://drive.google.com/file/d/1ZhtAk935gWAqA1UmEiMNy2G-M-kmtFOX/view?usp=sharing" target="_blank"> Download Resume</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi my name is <span class="name">Tushar</span>, <br> I am a passionate <span
+                    style="font-weight:bold;">Software Engineer</span> working in the fields of <br>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="Assets/bg1.png">
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about" class="aboutsection">
+            <div class="aboutleft">
+                <span style="display: block;" class="name">Technical Skills</span>
+                <div style="width: 100%; margin-top: 1rem; ">
+                    <h3 style="font-weight: lighter; font-style: italic;">Programming Languages</h2>
+                </div>
+                <p align="center">
+                    <img src="https://skillicons.dev/icons?i=c,cpp,python,js,mysql" />
+                </p>
+
+                <div style="width: 100%; margin-top: 1rem; ">
+                    <h3 style="font-weight: lighter; font-style: italic;">Artificial Intelligence</h2>
+                </div>
+                <p class="ailogo" style="display: flex; justify-content: center; align-items: center;" align="center">
+                    <img src="Assets/tf.jpeg" />
+                    <img src="Assets/pt.jpeg" />
+                    <img src="Assets/pandas_white.svg" />
+                    <img src="Assets/numpy.svg" />
+                    <img src="Assets/matplotlib.svg" />
+                </p>
+
+                <div style="width: 100%; margin-top: 1rem; ">
+                    <h3 style="font-weight: lighter; font-style: italic;">Web Development</h2>
+                </div>
+                <p align="center">
+                    <img src="https://skillicons.dev/icons?i=html,css,django,firebase,postgres" />
+                </p>
+                <div style="width: 100%; margin-top: 1rem; ">
+                    <h3 style="font-weight: lighter; font-style: italic;">Miscellaneous Tools & Tech.</h2>
+                </div>
+                <p align="center">
+                    <img src="https://skillicons.dev/icons?i=linux,postman,github,powershell,arduino" />
+                </p>
+            </div>
+            <div class="aboutright">
+                <span class="name">About me</span>
+                <p style="font-weight: lighter; text-align: justify;" class="about-text"> I am Tushar Verma, A Final
+                    year Computer Science Engineering student pursuing BTech-MBA (Dual Degree) in
+                    Computer Engineering from Thapar Institute of Engineering & Technology, Patiala, specializing in
+                    Data Science. I have an ever-growing zeal to explore, learn and grow in computer science domain & do
+                    possess Strong Analytical and Problem-Solving Skills & Excellent Leadership quality. </p>
+                <p style="font-weight: lighter; text-align: justify;" class="about-text"> I was among the 200
+                    participants across the country selected for the very first cohert of Google ML Bootcamp India 2022.
+                    I cleared the TensorFlow Developer Certification Examination in Dec 2022. I also completed Deep
+                    Learning Specialization and TensorFlow Professional Developer Specialization @DeepLearning.Ai. I was
+                    also a participant of Amazon ML Summer School 2022.</p>
+                <p style="font-weight: lighter; text-align: justify;" class="about-text"> I love participanting in
+                    hackathons for instance the Kingdom of Saudi Arabia`s Smartathon 2023 and APOGEE - Bits Pilani, 2021
+                    where I stood first with my Team.</p>
+
+                <!-- <p style="font-weight: lighter; text-align: justify;" class="about-text"> </p>     -->
+                <!-- <div style="height: 200px; width: 100%; background-color: yellowgreen;"></div> -->
+            </div>
+        </section>
+        <!-- projects section -->
+        <section style="display: initial;" class="projectssection" id="projects">
+            <span style="text-align: center; display:block ;" class="name">Projects</span>
+            <div class="project_row">
+                <div class="card" style="width: 24rem;">
+                    <img src="/Assets/mailchamp (1).jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">MailChamp</h5>
+                      <p class="card-text">Created an Email-Marketing / Newsletter web application that sends emails automatically to all the users subscribed to a specific topic at
+                        desired time using Gmail`s SMTP service. MailChamp is built with Django
+                        4.0 as backend, PostgreSQL (Relational DB) as database.</p>
+                      <a href="https://github.com/tusharverma643/mailchamp" class="btn btn-primary">Visit</a>
+                    </div>
+                  </div>
+                <div class="card" style="width: 24rem;">
+                    <img src="/Assets/ksa.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Visual Pollution Detection</h5>
+                      <p class="card-text">Trained a YOLOv7 object detection deep neural network on the real world dataset of Kingdom of Saudi Arabia (KSA) to detect visual
+                        pollution in the form of graffiti, potholes, faded signage etc.</p>
+                      <a href="https://github.com/tusharverma643/KSA_Visual_Polution" class="btn btn-primary">Visit Github</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 24rem;">
+                    <img src="/Assets/cropx.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">CropX</h5>
+                      <p class="card-text">Developed a Django Web Application for Smart Irrigation using AI which optimizes growth of crops using minimal water. CropX is built with
+                        Django 3.2 as backend, HTML and CSS for frontend and Firebase
+                        (NoSQL DB) as a Database.</p>
+                      <a href="https://github.com/tusharverma643/CropX" class="btn btn-primary">Visit Github</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 24rem;">
+                    <img src="/Assets/sensex.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color:blueviolet;">Sensex Dashboard</h5>
+                      <p class="card-text">Dashboard Visualization for Top 5 companies of BSE Sensex Index. Dataset was scrapped using ParseHub, cleaned using Pandas & Numpy. Plotly and Matplotlib used for visualization. Web app built and deployed
+                        using StreamLit.</p>
+                      <a href="https://github.com/tusharverma643/bse-sensex-analysis" class="btn btn-primary">Visit Github</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 24rem;">
+                    <img src="/Assets/topsis (1).png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Topsis Package @pypi</h5>
+                      <p class="card-text">Python Package for implementing Topsis which is a multi criteria decision making method. Package has been uploaded on pypi.org</p>
+                      <a href="https://pypi.org/project/Topsis-Tushar-402083001/" class="btn btn-primary">Visit Github</a>
+                    </div>
+                  </div>
+                  <!-- <div class="card" style="width: 24rem;">
+                    <img src="/Assets/sensex.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">CropX</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Visit Github</a>
+                    </div>
+                  </div> -->
+            </div>
+        </section>
+
+        <!-- <section class="experiencessection">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident maxime est debitis. Itaque quaerat harum
+            animi commodi dolorem molestias atque, doloribus a veritatis ipsam aperiam provident, voluptatem dolorum
+            consequatur similique!
+        </section>
+        <section class="certificationssection">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloribus qui inventore totam soluta
+            perferendis? Hic, dicta corrupti est placeat dolore reprehenderit illo libero consequatur voluptatum
+            assumenda a, earum tempore!
+        </section> -->
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Artificial Intelligence', 'Full Stack Web Development.', 'Artificial Intelligence &amp; Full Stack Web Development.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
